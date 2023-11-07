@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ICONE" type="image/x-icon">
+    <title>Imagem dinêmica</title>
+</head>
+<body>
+    <h1>Esta é uma imagem que altera o tamanho conforme o tamanho da tela</h1>
+    <p>Para tal usmos a tag picture, e aberta a tag, dentro dela, a ta source media type e no srcset coloca o endereço da imagem</p>
+    <br>
+    <picture>
+
+        <source  media="(min-width:1100px )" srcset="images/g1080.png" type="image/png">  
+        <source media="(min-width:740px )" srcset="images/m720.png" type="image/png">
+        <source media="(min-width:500px )" srcset="images/p480.png" type="image/png">   
+        <img src="images/pp360.png" alt="Imagem">
+
+    </picture>
+    <br>
+    <audio preload="metadata" controls>
+        <source src="audio/Misericórdia DEUS eu sou teu filho.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+Estrutura básica site:
+__________________________________________________________________________________________
+
+html:
+__________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Como Surgiu o Mascote Android</title>
+    <link rel="stylesheet" href="styles/style1.css">
+</head>
+
+<body>
+	header (cabcalho)
+	nav (menu)
+	main (corpo e conteúdo)
+		atricle (conteúdo principal)
+		aside 	(conteúdo secundário, extra, curiosidade)
+	footer (rodapé)
+</body>
+</html>
+
+Configuração lingua, teclado, etc.
+_________________________________________________________________________________________
+
+
+div	criar box
+span	criar box inline
+h1-h6 títulos
+p parágrafo
+a ancora / link
+	target=_blank (abrir nova aba)
+img imagem
+
+picture	(alternador de imagens)
+	source media srcset (seletor de imagens conforme tamanho, para responsividade)
+
+strong destacar
+abbr	explicação quando passa mouse em cima
+
+crtl shift p = atalho pra abreviar
+
+Definição semântica
+_________________________________________________________________________________________
+
+CSS:
+_________________________________________________________________________________________
+@charset "UTF-8"
+
+
+:root {
+--colorWhite: #fff;
+--color1: #c0c0c0 ;
+--color2: #9d9d9d;
+--color3: #5b5b5b;
+--color4: #212121;
+--colorBlack: #000;
+--font-default: Arial, Verdana, Helvetica, sans-serif;
+
+}
+
+
