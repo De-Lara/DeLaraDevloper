@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise</title>
+
+    <style>
+
+        h1 {
+            text-align: center;
+            font-size: 5vh;
+
+        }
+        p {
+            text-align: justify;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50vw;
+            position: relative;
+        }
+        caption {
+            background-color: aquamarine;
+            font-size: 2vh
+        }
+        thead>tr>th {
+            background-color: rgb(58, 58, 58);
+            color: white;
+            position:sticky ;
+            top: -1px;
+        }
+        tbody td, th, caption{
+            border: 1px solid black;
+            padding: 3px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(58, 58, 58);
+            color: white;
+        }
+        tr:nth-child(2n) {
+            background-color: rgb(168, 167, 167);
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1> Praticando tabelas</h1>
+    <table>
+        <caption>
+            Exercício de tabela com mesclagem, semântica, etc
+        </caption>
+        <thead>
+            <th>Número</th>
+            <th>Letra</th>
+            <th style="text-align: right;" >Mes</th>
+            <th style="text-align: left;" >cla</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>A</td>
+                <td colspan="2">1A</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>B</td>
+                <td rowspan="2">2 e 3</td>
+                <td rowspan="2" >B e C</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>C</td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>D</td>
+                <td colspan="2" rowspan="2" >4 e 5 & D e E</td>
+                </tr>
+            <tr>
+                <td>5</td>
+                <td>E</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="2" >Tabela Normal</th>
+            <th colspan="2" >Mescla espelhada</th>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus soluta aliquid consectetur debitis nemo ducimus, at doloribus sapiente. Sed esse blanditiis provident ex dicta voluptatum natus quod vitae eius cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae maiores at aliquid ipsam, eligendi voluptas incidunt officia soluta fuga minima adipisci omnis sit molestias repellat alias ea facere iste est!Lorem</p>
+    <br><br><br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus soluta aliquid consectetur debitis nemo ducimus, at doloribus sapiente. Sed esse blanditiis provident ex dicta voluptatum natus quod vitae eius cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae maiores at aliquid ipsam, eligendi voluptas incidunt officia soluta fuga minima adipisci omnis sit molestias repellat alias ea facere iste est!Lorem</p>
+    <br><br><br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus soluta aliquid consectetur debitis nemo ducimus, at doloribus sapiente. Sed esse blanditiis provident ex dicta voluptatum natus quod vitae eius cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae maiores at aliquid ipsam, eligendi voluptas incidunt officia soluta fuga minima adipisci omnis sit molestias repellat alias ea facere iste est!Lorem</p>
+    <br><br><br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus soluta aliquid consectetur debitis nemo ducimus, at doloribus sapiente. Sed esse blanditiis provident ex dicta voluptatum natus quod vitae eius cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae maiores at aliquid ipsam, eligendi voluptas incidunt officia soluta fuga minima adipisci omnis sit molestias repellat alias ea facere iste est!Lorem</p>
+    <br><br><br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus soluta aliquid consectetur debitis nemo ducimus, at doloribus sapiente. Sed esse blanditiis provident ex dicta voluptatum natus quod vitae eius cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae maiores at aliquid ipsam, eligendi voluptas incidunt officia soluta fuga minima adipisci omnis sit molestias repellat alias ea facere iste est!Lorem</p>
+    <br><br><br>
+</body>
+</html>
