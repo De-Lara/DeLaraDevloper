@@ -53,21 +53,21 @@
     </style>
 </head>
 <body>
-    <h1>Tabela com nomes e filmes que o Guanaba ensinou <strong style="text-decoration: underline;">DE GRAÇA!</strong></h1>
+    <h1>Tabela <strong style="text-decoration: underline;">scope</strong> que o Guanaba ensinou <strong style="text-decoration: underline;">DE GRAÇA!</strong></h1>
     <table>
         <caption>
             Exercício com nomes
         </caption>
         <thead>
             <tr>
-                <th>Grupo</th>
-                <th>Nome</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col" >Grupo</th>
+                <th scope="col" >Nome</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3" >Mulheres</th>
+                <th scope="rowgroup" rowspan="3" >Mulheres</th>
                 <td>Ana</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -88,7 +88,7 @@
                 <td>Gladiator</td>
             </tr>
             <tr>
-                <th rowspan="3" >Homens</th>
+                <th scope="rowgroup" rowspan="3" rowspan="3" >Homens</th>
                 <td>Bruno</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -111,7 +111,7 @@
             
         </tbody>
         <tfoot>
-            <th colspan="5">O Guanaba é o melhor professor do mundo!</th>
+            <th scope="row" colspan="5">O Guanaba é o melhor professor do mundo!</th>
         </tfoot>
     </table>
     <p>

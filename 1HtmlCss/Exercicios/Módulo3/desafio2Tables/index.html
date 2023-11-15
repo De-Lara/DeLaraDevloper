@@ -57,40 +57,40 @@
             Exercício de tabela com mesclagem, semântica, etc
         </caption>
         <thead>
-            <th>Número</th>
-            <th>Letra</th>
-            <th style="text-align: right;" >Mes</th>
-            <th style="text-align: left;" >cla</th>
+            <th scope="col" rowspan="3" >Número</th>
+            <th scope="col" >Letra</th>
+            <th scope="colgroup" style="text-align: right;" >Mes</th>
+            <th scope="colgroup" style="text-align: left;" >cla</th>
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
+                <td scope="row" >1</td>
                 <td>A</td>
                 <td colspan="2">1A</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td scope="row" >2</td>
                 <td>B</td>
                 <td rowspan="2">2 e 3</td>
                 <td rowspan="2" >B e C</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td scope="row" >3</td>
                 <td>C</td>
                 
             </tr>
             <tr>
-                <td>4</td>
+                <td scope="row" >4</td>
                 <td>D</td>
                 <td colspan="2" rowspan="2" >4 e 5 & D e E</td>
                 </tr>
             <tr>
-                <td>5</td>
+                <td scope="row" >5</td>
                 <td>E</td>
             </tr>
         </tbody>
         <tfoot>
-            <th colspan="2" >Tabela Normal</th>
+            <th scope="row" colspan="2" >Tabela Normal</th>
             <th colspan="2" >Mescla espelhada</th>
         </tfoot>
     </table>
