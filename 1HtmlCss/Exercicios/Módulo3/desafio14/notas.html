@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas: Exatas e Humanas</title>
+
+    <style>
+        * {
+            padding: 1vw;
+            margin: auto;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+            padding: 1vw;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 2px;
+            text-align: center;
+        }
+        th {
+            background-color: gray;
+            color: white;
+        }
+        .thDisciplinas{
+            background-color: white;
+            color: black;
+            text-align: center;
+            margin: auto;
+            padding: 1vw;
+        }
+        .medias {
+            background-color: gray;
+            color: white;
+        }
+        .mgeral {
+            background-color: wheat;
+            color: black;
+            font-size: larger;
+            text-align: right;
+            padding:1px 5px; 
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Outro desafio</h1>
+    <table>
+        <caption>
+        </caption>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr >
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
+            </tr>
+            <tr>
+                
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                
+            </tr>
+            <tr>
+                <th scope="rowgroup" class="thDisciplinas" rowspan="4">Exatas</th>
+                <td>Mat</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>Fís</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>Qui</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>Bio</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th scope="row" style="text-align: left;" colspan="4" >Média Exatas</th>
+                <td class="medias">10.0</td>
+            </tr>
+
+
+            <tr>
+                <th scope="rowgroup" class="thDisciplinas" rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>7.0</td>
+                <td>7.0</td>
+                <td>7.0</td>
+            </tr>
+            <tr>
+                <td>Geo</td>
+                <td>7.0</td>
+                <td>7.0</td>
+                <td>7.0</td>
+            </tr>
+            <tr>
+                <th scope="row" style="text-align: left;" colspan="4" >Média Humanas</th>
+                <td class="medias">7.0</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="mgeral" colspan="4" >Média Geral</th>
+                <td class="mgeral">9.0</td>
+            </tr>
+            <th scope="row" class="mgeral" colspan="4">Status:</th>
+            <td class="mgeral" >Aprovado!</td>
+        </tbody>
+        <tfoot>
+            <td colspan="6" >Notas ano letivo</td>
+        </tfoot>
+    </table>
+
+</body>
+</html>
