@@ -5,6 +5,11 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+    
+}
+body {
+    min-width: 300px;
+    overflow-x: hidden ;
 }
 header, footer {
     background-color: rgb(0, 0, 0);
