@@ -32,13 +32,22 @@ main {
 }  
 #monitor {
     background:  url('../Images/monitorOGL.png') center center no-repeat;
-    position: absolute;
+    position: relative;
     width: 97%;
-    height: 70vh;
-    top: 10vh;
+    height: 85vh;
+    top: 2vh;
     left: 1vw;
     padding: 10px;
     color: white; 
+}
+main>section>iframe {
+    position: absolute;
+    top: 8vh;
+    left: 19.9vw;
+    width: 59%;    
+    height: 65vh;
+    border-radius: 5%;
+
 } 
 #botoes {
     text-align: center;
