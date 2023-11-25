@@ -4,19 +4,19 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
     
 }
 body {
+    margin: auto;
     min-width: 300px;
-    overflow-x: hidden ;
+    background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgb(100,100,100), rgb(0,0,0));
 }
 header, footer {
     background-color: rgb(0, 0, 0);
     font-variant: small-caps;
     color: white;
     padding: 1vh;
-    margin: 2vh;
+    margin: 0 0 2vh 0;
     font-size: 13px;
     text-align: center;
 }
@@ -25,30 +25,23 @@ header a, footer a {
 }
 
 main {
-    background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgb(100,100,100), rgb(0,0,0));
-    width: 100%;
+    margin: auto;
     height: 87vh;
     position: relative;
+    max-width: 900px; 
 }  
 #monitor {
-    background:  url('../Images/monitorOGL.png') center center no-repeat;
-    position: relative;
-    width: 97%;
-    height: 85vh;
-    top: 2vh;
-    left: 1vw;
-    padding: 10px;
-    color: white; 
+    margin: auto;
 }
 main>section>iframe {
     position: absolute;
     top: 8vh;
-    left: 19.9vw;
-    width: 59%;    
-    height: 65vh;
-    border-radius: 5%;
-
-} 
+    left: 1vw;
+    width: 96%;    
+    height: 85%;
+    border: 10px solid gray;
+    border-radius:5% ;
+}
 #botoes {
     text-align: center;
 }
